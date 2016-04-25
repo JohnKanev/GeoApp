@@ -1,5 +1,4 @@
 # Geo
-##ABOUT
 
 ###WHAT IS <b>GEO</b>TAGGING?
 Geotagging  is the process of adding geographical identification metadata to various media such as a geotagged photograph or video, websites, SMS messages.
