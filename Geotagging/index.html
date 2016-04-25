@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/indexstill.css">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="scripts/Funkcii.js"></script>
+<link rel="stylesheet" href="css/stil.css">
+
+<meta charset="UTF-8">
+<head>
+
+
+<title>Geotagging</title>
+</head>
+
+<body>
+  <center><img  id="load" height="100" class="Absolute-Center"
+   src="images/ajax-loader.gif"></center></div>
+<div id="sve">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse"  >
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <a class="navbar-brand" href="index.html">
+        <img alt="Brand" height=120% src="images/AcensionLogo.png">
+      </a>
+      <a class="navbar-brand" href="#">
+      <img alt="Brand" height=120% src="images/icon1.png">
+    </a>
+
+       <li><a href="About.html">About</a></li>
+       <li><li>
+       <a class="navbar-brand" href="index.html">
+       <img alt="Brand" height=120% src="images/icon2.png">
+     </a>
+        <li><a href="index.html" height=120%>Earth</a></li>
+     </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <a class="navbar-brand" href="Support.html">
+        <img alt="Brand" height=120% src="images/icon3.png">
+      </a>
+        <li><a href="Support.html">Support</a></li>
+    </div>
+  </nav>
+
+<iframe class="map" frameborder="0" src="https://foronisus.cartodb.com/viz/d6850246-0992-11e6-8f50-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<script>
+
+function UNISTI(){
+document.getElementById('pop').style.display='none';
+document.getElementById('robot').style.display='none';
+}
+</script>
+<div id="pop">
+  <button id="close" onclick="UNISTI()"> X</button><br>
+    <a>On the top right corner of the map there is search function, there you can look for the city you need!</a>
+</div>
+
+<div id="pop2">
+  <button id="close" onclick="document.getElementById('pop2').style.display='none' "> X</button><br>
+    <a >The red point shows the location of NASA headquaters!</a>
+</div>
+
+<div id="pop3">
+  <button id="close" onclick="document.getElementById('pop3').style.display='none' "> X</button><br>
+    <a >The blue points are the cities, which are not affected by Nasa Space App Challenge!</a>
+</div>
+<div id="pop4">
+  <button id="close" onclick="document.getElementById('pop4').style.display='none' "> X</button><br>
+    <a >The orange points are the cities who are participating in the Nasa Space Apps Challenge!</a>
+</div>
+
+<div id="pop5">
+  <button id="close" onclick="document.getElementById('pop5').style.display='none' "> X</button><br>
+    <a >If you click on a point, you will be provided with detailed information about the point!</a>
+</div>
+
+
+<div id="pop6">
+  <button id="close" onclick="document.getElementById('pop6').style.display='none' "> X</button><br>
+  <a >This is the earth! </a>
+    <a >If you hover over a point, you will be provided with the city and country info.</a>
+</div>
+
+<div id="pop7">
+  <button id="close" onclick="document.getElementById('pop7').style.display='none' "> X</button><br>
+  <a >Hello, I`m Querky and i`ll be your guide tour!</a>
+</div>
+
+
+<left>
+    <button id="close" onclick="document.getElementById('robot').style.display='none' "> X</button><br>
+  <img  id="robot" class="robot" height="100"
+ src="images/aco.gif"></left>
+</div>
+
+
+<!--  <div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good.</div>
+Content of the document.....-->
+
+
+
+
+
+
+<script src="scripts/Funkcii.js"></script>
+<style>
+#pop{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+#pop2{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+#pop3{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+#pop4{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+
+#pop5{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+
+#pop6{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+#pop7{
+  height: 100px;
+  width: 500px;
+  position:fixed;
+  bottom:50%;
+  right:50%;
+  border:2px solid;
+  padding:10px;
+  background:#ffffd5;
+  border-radius:9px;
+}
+
+#close{
+  right: 5;
+  top: 5;
+  float: right;
+}
+
+
+
+}
+</style>
+
+<script>
+
+var myVar = setInterval(myTimer, 2000);
+document.getElementById("sve").style.visibility='hidden'
+
+function myTimer() {
+  document.getElementById("load").remove()
+  document.getElementById("sve").style.visibility='visible'
+
+}
+
+var myVar1 = setInterval(myTimer1, 8000);
+function myTimer1() {
+  document.getElementById("pop7").remove()
+
+}
+
+var myVar2 = setInterval(myTimer2, 14000);
+function myTimer2() {
+  document.getElementById("pop6").remove()
+}
+var myVar3 = setInterval(myTimer3, 20000);
+function myTimer3() {
+  document.getElementById("pop5").remove()
+}
+var myVar4 = setInterval(myTimer4, 26000);
+function myTimer4() {
+  document.getElementById("pop4").remove()
+}
+var myVar5 = setInterval(myTimer5, 32000);
+function myTimer5() {
+  document.getElementById("pop3").remove()
+}
+var myVar6 = setInterval(myTimer6, 38000);
+function myTimer6() {
+  document.getElementById("pop2").remove()
+}
+var myVar7 = setInterval(myTimer7, 42000);
+function myTimer7() {
+  document.getElementById("pop").remove()
+document.getElementById("robot").remove()
+}
+</script>
+</body>
+</html>
