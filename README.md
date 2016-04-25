@@ -11,6 +11,6 @@ This app was created to collect information about locations around the world, ab
 and famous buildings, also it provides you with some extra informations about the partnerships made in that place.
 
 ###FEATURES THAT <b>GEO</b> OFFERS:
-Navigation
-World map
-Information about locations around the world
+####Navigation
+####World map
+####Information about locations around the world
