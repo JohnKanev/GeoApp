@@ -15,6 +15,4 @@ and famous buildings, also it provides you with some extra informations about th
 ####Information about locations around the world
 
 ###WHAT IS <b>GEO</b> MADE WITH:
-#####HTML
-#####JavaScript
-#####CSS
+#####HTML,JavaScript,CSS and CartoDB
